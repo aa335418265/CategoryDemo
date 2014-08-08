@@ -10,6 +10,8 @@
 		0CAB4D081994A80B00079DA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CAB4D071994A80B00079DA1 /* Foundation.framework */; };
 		0CAB4D0B1994A80B00079DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB4D0A1994A80B00079DA1 /* main.m */; };
 		0CAB4D0F1994A80B00079DA1 /* CategoryDemo.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CAB4D0E1994A80B00079DA1 /* CategoryDemo.1 */; };
+		0CAB4D1A1994AAD900079DA1 /* Man.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB4D191994AAD900079DA1 /* Man.m */; };
+		0CAB4D1D1994AB2C00079DA1 /* Man+SuperMan.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CAB4D1C1994AB2C00079DA1 /* Man+SuperMan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		0CAB4D0A1994A80B00079DA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CAB4D0D1994A80B00079DA1 /* CategoryDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CategoryDemo-Prefix.pch"; sourceTree = "<group>"; };
 		0CAB4D0E1994A80B00079DA1 /* CategoryDemo.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CategoryDemo.1; sourceTree = "<group>"; };
+		0CAB4D181994AAD800079DA1 /* Man.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Man.h; sourceTree = "<group>"; };
+		0CAB4D191994AAD900079DA1 /* Man.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Man.m; sourceTree = "<group>"; };
+		0CAB4D1B1994AB2C00079DA1 /* Man+SuperMan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Man+SuperMan.h"; sourceTree = "<group>"; };
+		0CAB4D1C1994AB2C00079DA1 /* Man+SuperMan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Man+SuperMan.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				0CAB4D0A1994A80B00079DA1 /* main.m */,
+				0CAB4D1B1994AB2C00079DA1 /* Man+SuperMan.h */,
+				0CAB4D1C1994AB2C00079DA1 /* Man+SuperMan.m */,
+				0CAB4D181994AAD800079DA1 /* Man.h */,
+				0CAB4D191994AAD900079DA1 /* Man.m */,
 				0CAB4D0E1994A80B00079DA1 /* CategoryDemo.1 */,
 				0CAB4D0C1994A80B00079DA1 /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CAB4D0B1994A80B00079DA1 /* main.m in Sources */,
+				0CAB4D1A1994AAD900079DA1 /* Man.m in Sources */,
+				0CAB4D1D1994AB2C00079DA1 /* Man+SuperMan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
